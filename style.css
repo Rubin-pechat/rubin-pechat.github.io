@@ -1,3 +1,15 @@
+@font-face{
+  font-family: 'llr';
+  src: url("fonts/lack-line-regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'MR';
+  src: url("fonts/Methodiy-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 @keyframes animation1 {
   0%{
     fill:#faa;
@@ -74,4 +86,15 @@
 }
 #iii{
   animation: animation4 2s infinite linear;
+}
+#zag{
+  font-family: "MR";
+  font-size: 150px;
+}
+h1{
+  font-size: 50px;
+  font-family: "llr";
+}
+h3{
+  font-size: 30px;
 }
