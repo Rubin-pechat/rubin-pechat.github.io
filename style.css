@@ -98,3 +98,27 @@ h1{
 h3{
   font-size: 30px;
 }
+.slider{
+  display: inline-block;
+  width:500px;
+  height:300px;
+}
+.name{
+  width:99%;
+}
+.good{
+  width:30%;
+  border: black 1px solid;
+  margin:1%;
+}
+.iog{
+  margin:5px;
+}
+.params{ 
+  text-align: center;
+}
+button{
+  width: 30%;
+  margin-left:35%;
+  margin-right:35%;
+}
