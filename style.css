@@ -132,3 +132,8 @@ button:hover{
   color:white;
   transition:.5s;
 }
+button:not(hover){
+  background: white;
+  color:black;
+  transition:.5s;
+}
