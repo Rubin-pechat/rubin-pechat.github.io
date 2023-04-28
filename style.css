@@ -108,7 +108,7 @@ h3{
 }
 .good{
   width:30%;
-  border: black 1px solid;
+  border: black 1px dashed;
   margin:1%;
 }
 .iog{
@@ -120,7 +120,15 @@ h3{
   text-align: center;
 }
 button{
+  padding:5px;
   width: 30%;
   margin-left:35%;
   margin-right:35%;
+  background: white;
+  border: 1px solid black;
+}
+button:hover{
+  background: red;
+  color:white;
+  transition:.5s;
 }
