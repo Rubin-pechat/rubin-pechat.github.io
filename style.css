@@ -112,7 +112,9 @@ h3{
   margin:1%;
 }
 .iog{
-  margin:5px;
+  margin:0;
+  margin-right: auto;
+  margin-left: auto;
 }
 .params{ 
   text-align: center;
