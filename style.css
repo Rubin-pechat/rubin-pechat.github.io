@@ -64,44 +64,28 @@
   }
 }
 #i{
-  animation: animation1 5s infinite linear;
+  animation: animation1 50s infinite linear;
 }
 #viii{
-  animation: animation1 3s infinite linear;
+  animation: animation1 30s infinite linear;
 }
 #ii{
-  animation: animation2 5s infinite linear;
+  animation: animation2 50s infinite linear;
 }
 #v{
-  animation: animation2 3s infinite linear;
+  animation: animation2 30s infinite linear;
 }
 #iv{
-  animation: animation3 8s infinite linear;
+  animation: animation3 80s infinite linear;
 }
 #vi{
-  animation: animation3 3s infinite linear;
+  animation: animation3 30s infinite linear;
 }
 #vii{
-  animation: animation4 7s infinite linear;
+  animation: animation4 70s infinite linear;
 }
 #iii{
-  animation: animation4 2s infinite linear;
-}
-#zag{
-  font-family: "MR";
-  font-size: 150px;
-}
-h1{
-  font-size: 50px;
-  font-family: "llr";
-}
-h3{
-  font-size: 30px;
-}
-.slider{
-  display: inline-block;
-  width:500px;
-  height:300px;
+  animation: animation4 20s infinite linear;
 }
 .name{
   width:99%;
@@ -136,4 +120,18 @@ button:not(hover){
   background: white;
   color:black;
   transition:.5s;
+}
+header{
+  display: flex;
+  align-items: center;
+  font-size: 80px;
+  background: #f22;
+}
+#zag{
+  font-family: "MR";
+  font-size: 10px;
+}
+*{
+  margin: 0;
+  padding: 0;
 }
