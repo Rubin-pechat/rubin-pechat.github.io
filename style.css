@@ -124,7 +124,8 @@ button:not(hover){
 header{
   display: flex;
   align-items: center;
-  font-size: 80px;
+  justify-content: space-between;
+  font-size: 20px;
   background: #f22;
 }
 #zag{
