@@ -103,7 +103,7 @@
 .params{ 
   text-align: center;
 }
-button{
+buy-btn{
   padding:5px;
   width: 30%;
   margin-left:35%;
@@ -111,12 +111,12 @@ button{
   background: white;
   border: 1px solid black;
 }
-button:hover{
+buy-btn:hover{
   background: red;
   color:white;
   transition:.5s;
 }
-button:not(hover){
+buy-btn:not(hover){
   background: white;
   color:black;
   transition:.5s;
@@ -126,6 +126,7 @@ header{
   align-items: center;
   justify-content: space-between;
   font-size: 20px;
+  color: #fff;
   background: #f22;
 }
 #zag{
