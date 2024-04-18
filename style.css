@@ -151,3 +151,9 @@ header{
   scrollbar-width: thin;
   scrollbar-color: black white;
 }
+*::-webkit-scrollbar-track {
+  background: white;
+}
+*::-webkit-scrollbar-thumb {
+  background: black;
+}
