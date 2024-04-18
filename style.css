@@ -137,7 +137,7 @@ header{
   margin: 0;
   padding: 0;
 }
-#slider {
+.slider {
   text-align: center;
   display: flex;
   margin-left: auto;
