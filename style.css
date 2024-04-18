@@ -137,10 +137,17 @@ header{
   margin: 0;
   padding: 0;
 }
-.slider {
+#slider {
+  text-align: center;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   width: 300px;
-  -webkit-overflow-scrolling: touch; /* для плавной прокрутки на мобильных устройствах */
+  -webkit-overflow-scrolling: touch;
+}
+*{
+  scrollbar-width: thin;
+  scrollbar-color: black white;
 }
