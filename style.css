@@ -124,7 +124,7 @@ buy-btn:not(hover){
 header{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-size: 20px;
   color: #fff;
   background: #f22;
@@ -142,4 +142,12 @@ marquee{
   margin-bottom: 20px;
   margin-right: 30px;
   margin-left: 30px;
+}
+.buttons-1{
+  padding:40px;
+  background-color: #f66;
+}
+.buttons-2{
+  padding:35px;
+  background-color: #f22;
 }
