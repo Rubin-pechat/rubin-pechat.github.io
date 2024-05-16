@@ -151,3 +151,10 @@ marquee{
   padding:35px;
   background-color: #f22;
 }
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #444;
+  color: #777;
+  padding: 50px;
+}
