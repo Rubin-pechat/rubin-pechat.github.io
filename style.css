@@ -10,83 +10,6 @@
   font-weight: normal;
   font-style: normal;
 }
-@keyframes animation1 {
-  0%{
-    fill:#faa;
-  }
-  50%{
-    fill:red;
-  }
-  100%{
-    fill:#faa;
-  }
-}
-@keyframes animation2 {
-  0%{
-    fill:red;
-  }
-  50%{
-    fill:#faa;
-  }
-  100%{
-    fill:red;
-  }
-}
-@keyframes animation3 {
-  0%{
-    fill: red;
-  }
-  10%{
-    fill:#a00;
-  }
-  75%{
-    fill: red;
-  }
-  90%{
-    fill:#faa;
-  }
-  100%{
-    fill:red;
-  }
-}
-@keyframes animation4 {
-  0%{
-    fill:#a00;
-  }
-  50%{
-    fill:#faa;
-  }
-  75%{
-    fill:red;
-  }
-  100%{
-    fill:#a00;
-  }
-}
-#i{
-  animation: animation1 50s infinite linear;
-}
-#viii{
-  animation: animation1 30s infinite linear;
-}
-#ii{
-  animation: animation2 50s infinite linear;
-}
-#v{
-  animation: animation2 30s infinite linear;
-}
-#iv{
-  animation: animation3 80s infinite linear;
-}
-#vi{
-  animation: animation3 30s infinite linear;
-}
-#vii{
-  animation: animation4 70s infinite linear;
-}
-#iii{
-  animation: animation4 20s infinite linear;
-}
 .name{
   width:99%;
 }
@@ -125,9 +48,6 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 20px;
-  color: #fff;
-  background: #f22;
 }
 #zag{
   font-family: "MR";
@@ -143,18 +63,22 @@ marquee{
   margin-right: 30px;
   margin-left: 30px;
 }
-.buttons-1{
-  padding:40px;
-  background-color: #f66;
-}
-.buttons-2{
-  padding:35px;
-  background-color: #f22;
-}
 footer{
   display: flex;
   justify-content: space-around;
   background-color: #444;
   color: #777;
   padding: 50px;
+}
+.head-buttons{
+  padding: 5px;
+  border: 3px solid red;
+  border-radius: 30px;
+  color:#000;
+  font-size:20px;
+  text-decoration: none;
+  background: #fff;
+}
+.head-buttons:hover{
+  cursor: pointer;
 }
