@@ -26,7 +26,7 @@
 .params{ 
   text-align: center;
 }
-buy-btn{
+.buy-btn{
   padding:5px;
   width: 30%;
   margin-left:35%;
@@ -34,12 +34,12 @@ buy-btn{
   background: white;
   border: 1px solid black;
 }
-buy-btn:hover{
+.buy-btn:hover{
   background: red;
   color:white;
   transition:.5s;
 }
-buy-btn:not(hover){
+.buy-btn:not(hover){
   background: white;
   color:black;
   transition:.5s;
@@ -74,11 +74,25 @@ footer{
   padding: 5px;
   border: 3px solid red;
   border-radius: 30px;
-  color:#000;
   font-size:20px;
   text-decoration: none;
+  color: #111;
   background: #fff;
 }
 .head-buttons:hover{
+  background: #eee;
   cursor: pointer;
+}
+body{
+  font-family: system-ui;
+  color:#111;
+  background: #fff;
+}
+option{
+    font-size: 20px;
+    color: #111;
+}
+#head-buttons{
+  display: flex;
+  justify-content: space-between;
 }
