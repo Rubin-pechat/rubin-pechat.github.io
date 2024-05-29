@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="jquery.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,25 +12,7 @@
   <meta name="keywords" content="Рубин печать, печать на заказ, 3д печать, 3д печать на заказ">
 </head>
 <body>
-	<header>
-  <svg height="70" width="100" xmlns="http://www.w3.org/2000/svg">
-    <polygon id="i" points="10,0 30,20 0,20" fill="#d00"/>
-    <polygon id="ii" points="0,20 30,20 50,70" fill="#c22"/>
-    <polygon id="iii" points="30,20 70,20 50,70" fill="#d33"/>
-    <polygon id="iv" points="70,20 100,20 50,70" fill="#d22"/>
-    <polygon id="v" points="10,0 50,0 30,20" fill="#e00"/>
-    <polygon id="vi" points="50,0 90,0 70,20" fill="#e00"/>
-    <polygon id="vii" points="30,20 50,0 70,20" fill="#f00"/>
-    <polygon id="viii" points="100,20 90,0 70,20" fill="#d00"/>
-  </svg>
-  <div id="head-buttons">
-  <a class="head-buttons" href="index.html">Главная</a>
-  <a class="head-buttons" href="materials.html">Материалы</a>
-  <a class="head-buttons" href="#">Поиск</a>
-  <a class="head-buttons" href="#">Контактная информация</a>
-  </div>
-  <button class="head-buttons" href="#" id="theme-switcher">☼/☾</button>
-  </header>
+	<div id="header"></div>
   <main>
   	<h1>Выберите материал, чтобы отобразить его характеристики:</h1>
   	<select multiple name="material" id="material_selector" size="4">
@@ -43,4 +26,6 @@
   </main>
 </body>
 </html>
-<script src="script_for_materials.js"></script>
+<script>
+  $("#header").load("header.html");
+</script>
