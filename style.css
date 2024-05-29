@@ -15,7 +15,7 @@
 }
 .products{
   width:30%;
-  border: black 1px dashed;
+  border: white 1px dashed;
   margin:1%;
 }
 .iog{
@@ -76,23 +76,20 @@ footer{
   border-radius: 30px;
   font-size:20px;
   text-decoration: none;
-  color: #111;
-  background: #fff;
+  color: #fff;
+  background: #111;
 }
 .head-buttons:hover{
-  background: #eee;
   cursor: pointer;
+  background: #222;
 }
 body{
   font-family: system-ui;
-  color:#111;
-  background: #fff;
+  background: #111;
+  color:#fff;
 }
 option{
     font-size: 20px;
-    color: #111;
-}
-#head-buttons{
-  display: flex;
-  justify-content: space-between;
+    color: #fff;
+    background: #111;
 }
