@@ -4,7 +4,6 @@
 .product{
   width:30%;
   border: white 1px dashed;
-  margin:1%;
 }
 .buy-btn{
   padding:5px;
@@ -57,7 +56,7 @@ body{
   background: #111;
   color:#fff;
 }
-.products{
+#products{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
