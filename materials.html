@@ -15,17 +15,43 @@
 	<div id="header"></div>
   <main>
   	<h1>Выберите материал, чтобы отобразить его характеристики:</h1>
-  	<select multiple name="material" id="material_selector" size="4">
-  		<option value="1">PETG</option>
-  		<option value="2">PLA</option>
-  		<option value="3">ABS</option>
-  		<option value="4">PP</option>
-  		<option value="5">PET</option>
-  	</select>
+  	<button class="btn" action="petg">PETG</button>
+  	<button class="btn" action="pla">PLA</button>
+  	<button class="btn" action="abs">ABS</button>
+  	<button class="btn" action="pp">PP</button>
+  	<button class="btn" action="pet">PET</button>
   	<h1 id="name"></h1>
+    <h1>Характеристики:</h1>
+    <div id="data"></div>
   </main>
+  <div id="footer"></div>
 </body>
 </html>
 <script>
   $("#header").load("header.html");
+  $("#footer").load("footer.html");
+  function petg(){
+    $("#data").load("petg.html");
+  }
+  function pla(){
+    $("#data").load("pla.html");
+  }
+  function abs(){
+    $("#data").load("abs.html");
+  }
+  function pp(){
+    $("#data").load("pp.html");
+  }
+  function pet(){
+    $("#data").load("pet.html");
+  }
 </script>
+<style>
+  button{
+    font-size: 18px;
+  }
+  #data{
+    border: solid 2px black;
+    background-color: #222;
+  }
+</style>

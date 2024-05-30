@@ -34,12 +34,12 @@
   background: white;
   border: 1px solid black;
 }
-.buy-btn:hover{
+.btn:hover{
   background: red;
   color:white;
   transition:.5s;
 }
-.buy-btn:not(hover){
+.btn:not(hover){
   background: white;
   color:black;
   transition:.5s;
