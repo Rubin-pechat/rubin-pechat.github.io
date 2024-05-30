@@ -79,10 +79,6 @@ footer{
   color: #fff;
   background: #111;
 }
-.head-buttons:hover{
-  cursor: pointer;
-  background: #222;
-}
 body{
   font-family: system-ui;
   background: #111;
