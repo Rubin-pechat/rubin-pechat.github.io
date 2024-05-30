@@ -1,16 +1,10 @@
 .name{
   width:99%;
 }
-.products{
+.product{
   width:30%;
   border: white 1px dashed;
   margin:1%;
-}
-.params{ 
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  object-position: center;
 }
 .buy-btn{
   padding:5px;
@@ -62,4 +56,8 @@ body{
   font-family: system-ui;
   background: #111;
   color:#fff;
+}
+.products{
+  display: flex;
+  justify-content: space-between;
 }
