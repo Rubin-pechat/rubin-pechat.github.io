@@ -63,13 +63,6 @@ marquee{
   margin-right: 30px;
   margin-left: 30px;
 }
-footer{
-  display: flex;
-  justify-content: space-around;
-  background-color: #444;
-  color: #777;
-  padding: 50px;
-}
 .head-buttons{
   padding: 5px;
   border: 3px solid red;
