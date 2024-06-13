@@ -9,7 +9,29 @@
 <body>
 	<div id="header"></div>
 	<main>
-		
+		<input type="text" id="search" placeholder="Начните вводить"/>
+		<div id="questions">
+			<div class="block">
+				<div class="question">Lorem, ipsum, dolor.</div>
+				<div class="answer"></div>
+			</div>
+			<div class="block">
+				<div class="question">Lorem, ipsum dolor sit amet.</div>
+				<div class="answer"></div>
+			</div>
+			<div class="block">
+				<div class="question">Third item</div>
+				<div class="answer"></div>
+			</div>
+			<div class="block">
+				<div class="question">December</div>
+				<div class="answer"></div>
+			</div>
+			<div class="block">
+				<div class="question">Member ipsum</div>
+				<div class="answer"></div>
+			</div>
+		</div>
 	</main>
 	<div id="footer"></div>
 </body>
@@ -17,4 +39,12 @@
 <script>
 	$("#header").load("header.html");
 	$("#footer").load("footer.html");
+	$(document).ready(function(){
+	    $("#search").on("keyup", function() {
+	      var  value = $(this).val().toLowerCase();
+	      $("#questions .question").filter(function() {
+	         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
 </script>
