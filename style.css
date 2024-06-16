@@ -16,7 +16,7 @@ body{
     width: auto;
   }
   .slide{
-    height: 250px;
+    height: 200px;
     width: auto;
   }
   .header-items{
@@ -26,8 +26,7 @@ body{
 }
 @media(min-width: 768px){
   #products{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    
   }
   .iog{
     height: auto;
@@ -36,10 +35,6 @@ body{
   .slide{
     height: 400px;
     width: auto;
-  }
-  .header-items{
-    display: grid;
-    grid-template-columns: 50% 50%;
   }
 }
 @media(min-width: 1024px){
@@ -99,4 +94,26 @@ marquee{
   text-decoration: none;
   color: #fff;
   background: #111;
+}
+#search{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  font-size: 30px;
+  border: solid #222 4px;
+  background: #333;
+  color:#eee;
+  border-radius: 2px;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #444;
+  color: #777;
+  padding: 50px;
+}
+a{
+  decoration:none;
+  color:whitesmoke;
 }

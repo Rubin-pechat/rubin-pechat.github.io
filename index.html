@@ -28,7 +28,9 @@
       <h2 class="name params">Части 3д принтера voron 0</h2>
       <img src="imgs/voron0_parts.jpg" width="100%" class="iog params">
       <h3 class="price params">1000 руб.</h3>
-      <button class="buy params btn">Купить</button>
+      <span id="button_1">
+        <button class="buy params btn" id="button-1" onclick="in_bin();">Купить</button>
+      </span>
       </center>
     </div>
     <div class="product">
@@ -55,4 +57,8 @@
 <script>
   $("#header").load("header.html");
   $("#footer").load("footer.html");
+  function in_bin(){
+    $("#button-1").remove();
+    $("#button_1").load("Товар в корзине");
+  }
 </script>
