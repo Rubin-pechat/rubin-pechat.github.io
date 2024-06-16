@@ -19,6 +19,10 @@ body{
     height: 250px;
     width: auto;
   }
+  .header-items{
+    display: grid;
+    grid-template-columns: 100%;
+  }
 }
 @media(min-width: 768px){
   #products{
@@ -32,6 +36,10 @@ body{
   .slide{
     height: 400px;
     width: auto;
+  }
+  .header-items{
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 }
 @media(min-width: 1024px){
